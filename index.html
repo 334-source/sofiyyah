@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFTEEN</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="loader">
+    <h1>FIFTEEN</h1>
+    <p>Loading your invitation...</p>
+</div>
+
+<div id="passwordPage" class="page">
+
+    <div class="card">
+
+        <h1>🔐</h1>
+
+        <h2>Enter Birthday Code</h2>
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Password">
+
+        <button onclick="checkPassword()">
+            Unlock
+        </button>
+
+        <p id="error"></p>
+
+    </div>
+
+</div>
+
+<div id="mainPage" class="hidden">
+
+<header>
+
+<h1>FIFTEEN</h1>
+
+<p>Welcome to my 15th Birthday Celebration</p>
+
+</header>
+
+<section class="welcome">
+
+<h2>Welcome! ✨</h2>
+
+<p>
+
+I'm so happy you could celebrate this special day with me.
+
+Your presence means more than words can express,
+and I'm truly grateful you're here.
+
+<br><br>
+
+Relax, enjoy the food, games, laughter,
+and wonderful company.
+
+Let's make beautiful memories together as we celebrate this new chapter.
+
+<br><br>
+
+Thank you for coming,
+and welcome to my 15th birthday celebration!
+
+</p>
+
+</section>
+
+<section class="details">
+
+<h2>Event Details</h2>
+
+<div class="box">
+
+<p>📅 <strong>Date:</strong> 19 August 2026</p>
+
+<p>🕑 <strong>Time:</strong> 2:00 PM - 4:00 PM</p>
+
+<p>📍 <strong>Venue:</strong> My House</p>
+
+<p>👕 <strong>Dress Code:</strong> Something Comfortable</p>
+
+</div>
+
+</section>
+
+<section class="countdown">
+
+<h2>Countdown</h2>
+
+<div id="timer">
+
+<div>
+
+<span id="days">00</span>
+
+<p>Days</p>
+
+</div>
+
+<div>
+
+<span id="hours">00</span>
+
+<p>Hours</p>
+
+</div>
+
+<div>
+
+<span id="minutes">00</span>
+
+<p>Minutes</p>
+
+</div>
+
+<div>
+
+<span id="seconds">00</span>
+
+<p>Seconds</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="gallery">
+
+<h2>Favourite Characters</h2>
+
+<div class="characters">
+
+<div class="character">🧽 SpongeBob</div>
+
+<div class="character">👑 Sofia the First</div>
+
+<div class="character">🏰 Elena of Avalor</div>
+
+<div class="character">🌊 Moana</div>
+
+<div class="character">❄️ Frozen</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+Made with ❤️ for my Fifteenth Birthday
+
+</p>
+
+</footer>
+
+</div>
+
+<canvas id="confetti"></canvas>
+
+<script src="script.js"></script>
+
+</body>
+</html>
